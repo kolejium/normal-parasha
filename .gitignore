@@ -35,10 +35,6 @@ ui_*.h
 qrc_*.cpp
 
 # Файлы Visual Studio
-*.sln
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
 ipch/
 .vscode/
 .vs/
