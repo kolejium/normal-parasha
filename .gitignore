@@ -1,0 +1,57 @@
+# Общие файлы сборки
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+*.exp
+*.pdb
+*.exe
+*.app
+*.dSYM/
+
+.vs/
+*.ipch
+
+# Файлы Qt Creator
+*.pro.user
+*.qmake.stash
+*.pro.user.*
+*.pro.bak
+*.cdb
+*.creator.*
+*.creator
+*.qmlproject.user
+
+# Файлы CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Файлы Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+ipch/
+.vscode/
+.vs/
+
+# Каталоги сборки
+build-*/
+bin/
+debug/
+release/
+x64/
+
+# Логи, временные файлы
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
